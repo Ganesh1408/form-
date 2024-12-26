@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="script.js" defer></script>
+  
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+<main class="main-container">
+  <form class="form-container" type="submit">
+      <h1 class="heading">Contact Us</h1>
+      <div class="name-container">
+      <div class="name">
+      <label for="firstname" required>First Name<span>*</span></label>
+      <input type="text" id="firstname" >
+    </div>
+    <div class="name">
+      <label for="lastname">Last Name<span>*</span></label>
+      <input type="text" id="lastname">
+    </div>
+  </div>
+  <div class="email-container">
+  <label for="emailAddress">Email Address<span>*</span></label>
+  <input type="text" id="emailAddress">
+</div>
+
+<p>Query type<span>*</span></p>
+<div class="query">
+  
+  <div class="query-container">
+    <input id="query1" type="radio" checked name="button" value="General Query">
+    <label for="query1">General Query</label>
+  </div>
+  <div class="query-container">
+    <input id="query2" type="radio" name="button">
+    <label for="query2">Support Query</label>
+  </div>
+</div>
+</div>
+</div>
+<div class="text-area-container">
+<p >Message <span>*</span></p>
+<textarea cols="55" rows="8" id="textarea"></textarea>
+</div>
+<div class="consent">
+<input type="checkbox" id="checkbox">
+<label for="checkbox">I consent to being contacted by the team<span>*</span>
+</label>
+</div>
+<button>Submit</button>
+  </form>
+</main>
+  
+</body>
+</html>

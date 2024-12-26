@@ -1,0 +1,1 @@
+const firstEl = document.querySelector('#firstname')

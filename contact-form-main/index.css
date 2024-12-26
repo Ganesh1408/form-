@@ -1,0 +1,133 @@
+.main-container{
+    background-color:#dff1e7;
+    max-width:1520px;
+    /* height:100vh; */
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.form-container{
+    background-color:white ;
+    width:30%;
+
+    border-radius:16px;
+    padding: 32px;
+    
+    
+    
+}
+.heading{
+    font-size:28px;
+    color:#393838
+}
+.name-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.name{
+    display:flex;
+    flex-direction: column;
+
+}
+.name>label{
+    padding-bottom:10px;
+}
+input:hover{
+    border:1px solid #0c7d69;
+}
+
+
+.name>input{
+    height:24px;
+    width:100%;
+    margin-right:30px;
+    border-radius:4px;
+}
+
+.email-container{
+    display:flex;
+    flex-direction: column;
+    padding-top: 24px;
+    
+}
+.email-container>label{
+    padding-bottom:10px;
+}
+.email-container>input{
+    height:24px;
+    width:100%;
+    border-radius:4px;
+    /* margin-right:auto; */
+
+}
+.query{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+span{
+    color:#0c7d69
+}
+.query-container:active{
+    background-color: lightgreen;
+    border:1px solid #0c7d69;
+}
+
+.query-container:focus{
+    background-color: lightgreen;
+    border:1px solid #0c7d69;
+}
+.query-container{
+    height:30px;
+    width:100%;
+    border: 1px solid #313030;
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+    border-radius: 4px;
+    padding:0px 20px;
+}
+
+.text-area-container{
+    padding-top:20px;
+}
+
+.text-area-container > label{
+    padding-bottom:10px;
+}
+
+.text-area-container>textarea{
+    width:100%;
+    height:70px;
+    border-radius:8px;
+}
+input[type="checbox"]{
+    background-color:lightgrey;
+} 
+
+input[type="checkbox"]:checked{
+    accent-color:#0c7d69;
+    color:white
+}
+
+
+.consent{
+    padding:20px 0px;
+}
+
+button{
+    width:100%;
+    height:36px;
+    border-radius:4px;
+    background-color: #0c7d69;
+    color:white;
+    border:none;
+}
